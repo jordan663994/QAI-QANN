@@ -68,4 +68,4 @@ def new_network(datadir, input_):
     pickle.dump(weights, file)
     return(avg(output))
   
-  new_network("ai", 2)
+  new_network("<PATH TO FOLDER CONTAINING THIS FILE AND 'ai.pkl'>", 2)
